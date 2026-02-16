@@ -8,14 +8,10 @@ const poppins = Poppins({
   variable: "--font-poppins",
 })
 
-export const metadata = {
-  title: "Đỗ Trung Thành - Personal Profile",
-  description: "Personal profile website of Đỗ Trung Thành - Bug hunter and tech enthusiast",
-  icons: {
-    icon: "/favicon.ico",
-  },
-    generator: 'v0.dev'
-}
+export const metadata: Metadata = {
+  title: "MQuyen - Personal Profile",
+  description: "Trang web cá nhân của MQuyen",
+};
 
 export default function RootLayout({ children }) {
   return (
